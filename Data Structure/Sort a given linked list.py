@@ -45,6 +45,6 @@ class Solution:
 
 
 
-ob = Solution()
-head = make_list([5, 8, 4, 1, 5, 6, 3])
-print_list(ob.solve(head))
+# ob = Solution()
+# head = make_list([5, 8, 4, 1, 5, 6, 3])
+# print_list(ob.solve(head))
