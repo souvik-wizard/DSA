@@ -18,7 +18,7 @@ def fixed_sliding_window(arr: List[int] , k: int) -> List[int] :
 #Dynamic Sliding window technique
 def dynamic_sliding_window(arr: List[int] , x: int) -> int:
     # Track our min value
-    min_length = float( ' inf')
+    min_length = float( ' int')
     # The current range and sum of our sliding window
     start = 0
     end = 0
@@ -29,7 +29,7 @@ def dynamic_sliding_window(arr: List[int] , x: int) -> int:
         end = end + 1
         # Then contract the sliding window until it
         # no longer meets our condition
-        while start < end and current_sum >= X:
+        while start < end and current_sum >= x:
             current_sum = current_sum - arr[start]
             start = start + 1
             # Update the min_length if this is shorter
