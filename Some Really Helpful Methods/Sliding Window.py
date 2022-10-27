@@ -1,4 +1,6 @@
  #Sliding window technique
+
+ 
 def fixed_sliding_window(arr: List[int] , k: int) -> List[int] :
     # Sum up the first subarray and add it to the result
     curr_subarray = sum(arr[:k])
@@ -16,6 +18,8 @@ def fixed_sliding_window(arr: List[int] , k: int) -> List[int] :
 
 
 #Dynamic Sliding window technique
+
+
 def dynamic_sliding_window(arr: List[int] , x: int) -> int:
     # Track our min value
     min_length = float( ' int')
